@@ -3,13 +3,51 @@ h4 {
     text-shadow: 2px 2px #F8BBDO;
 }
 
-body {
+#welcome {
     text-align: center;
-    background: linear-gradient( #E1BEE7 0%,#90CAF9 100%);
+    background: linear-gradient(#E1BEE7 0%, #90CAF9 100%);
+    padding: 50px;
 }
 
 img {
-    border-radius:50%;
-    width:120px;
+    border-radius: 50%;
+    width: 120px;
     height: 80px;
+}
+
+#bio {
+
+    padding: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#hi {
+    font-size: 30px;
+}
+
+.menu {
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
 }
